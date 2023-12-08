@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loggin side</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="loggin">
+        <p>Vennligst logg inn:</p>
+        <form method="post" action="login.php">
+            <label for="brukernavn">Navn</label>
+            <br><br>
+            <input type="text" name="brukernavn" placeholder="Your Name" /><br /><br>
+            <label for="passord">Passord</label>
+            <br><br>
+            <input type="password" name="passord" placeholder="Your Password" /><br />
+            <br>
+            <div class="knapp">
+                <input type="reset" value="Nullstill" class="nullstillknapp">
+                <input type="submit" value="Logg inn" name="submit" class="logginknapp" />
+            </div>
+
+        </form>
+        <p>Eller klikk <a href="registration.php">her</a> for å registrere ny bruker</p>
+    </div>
+</body>
+
+</html>

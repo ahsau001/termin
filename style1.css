@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    width: 200px;
+}
+
+nav ul {
+
+    list-style: none;
+}
+
+input {
+    height: 22px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.flex {
+    display: flex;
+    gap: 3vw;
+    font-size: 180%;
+
+
+}
+
+nav ul li a i {
+    color: black;
+
+}
+/*dette er css koden for navbar^*/
+.bildevid {
+
+    display: flex;
+    justify-content: center;
+
+    margin: 5px;
+
+
+
+}
+
+div h2 {
+    color: black;
+}
+
+nav>* {
+    width: 200px;
+}
+
+.navunderbilde {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    box-shadow: 0 4px 4px rgba(224, 66, 27, 0.438), 0 0 0px rgba(255, 23, 23, 0.1) inset;
+
+}
+
+.ulunderbilde {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3vw;
+
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+.shadow {
+    box-shadow: 0 4px 4px rgba(211, 214, 36, 0.438), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+.shadow::before .shadow::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0, .8);
+    top: 50%;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    border-radius: 100px / 10;
+}
+
+.imgprodukt {
+    height: 200px;
+    margin: 10px;
+}
+
+
+.produkter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*disse kodene er for produkt delen av siden*/
+.produkt {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+#cart {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.tømm {
+    display: flex;
+    margin: 10px;
+}
+
+.jsprodukter {
+    width: 200px;
+}
+
+.prodimg {
+    display: flex;
+    width: 500px;
+
+}
+l
+.prodinfo {
+    align-self: center;
+}
+/*disse kodene her er for selve produkt siden*/
+.prodgen {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+
+i b{
+    font-family: Segoe UI;
+    font-size: 18px;
+}
+/*her styler jeg litt på tekst*/
+div div h4{
+    font-family: Consolas;
+    font-size: 18px;
+}
+
+.prodinfo p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}

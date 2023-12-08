@@ -1,0 +1,144 @@
+.loggin {
+    display: flex;
+    background-color: blanchedalmond;
+    margin-top: 3%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: auto;
+    
+}
+
+.knapp {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+
+
+}
+
+label {
+    color: black;
+}
+
+.nullstillknapp {
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    border-color: wheat;
+    background-color: red;
+
+}
+
+.logginknapp {
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(0, 150, 0);
+    border-color: wheat;
+
+}
+
+
+.php {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+
+
+/*her setter jeg en tiodligere css kode som skal bukes så lenge 
+det ikke lager noen problemer for meg eller koden.*/
+
+
+.produkter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.produkt {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: black;
+}
+
+
+.imgprodukt {
+    height: 200px;
+    margin: 10px;
+}
+
+a i {
+    color: black;
+}
+
+.flex {
+    display: flex;
+    gap: 3vw;
+    font-size: 180%;
+
+
+}
+
+.jsprodukter {
+    width: 200px;
+}
+
+.prodgen {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.prodinfo {
+    align-self: center;
+}
+
+.prodimg {
+    display: flex;
+    width: 400px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.flex {
+    display: flex;
+    gap: 3vw;
+    font-size: 180%;
+
+
+}
+
+.search {
+    height: 22px;
+
+}
+
+nav ul {
+
+    list-style: none;
+}
+
+nav ul li a i {
+    color: black;
+
+}
+
+.logo {
+    width: 100px;
+}
